@@ -9,19 +9,19 @@
     },
     "keyword": "#4AEDC4",
     "operator": "#bacac3",
-    "string": "#4AEDC4",
+    "string": "#CE9178",
     "regexp": "#5ee1ff",
     "number": "#d19fed",
     "namespace": "#bacac3",
     "type": "#afecae",
-    "type.defaultLibrary": "#afecae",
+    "type.defaultLibrary": "#569CD6",
     "typeParameter": "#e7ffc2",
     "class": "#afecae",
-    "class.defaultLibrary": "#afecae",
+    "class.defaultLibrary": "#569CD6",
     "interface": "#afecae",
     "struct": "#afecae",
     "enum": "#d19fed",
-    "enumMember": "#c59eff",
+    "enumMember": "#4FC1FF",
     "decorator": "#ffec95",
     "event": "#5ee1ff",
     "macro": "#ffec95",
@@ -87,7 +87,13 @@
     "editorGutter.addedBackground": "#22C55E",
     "editorGutter.deletedBackground": "#EF4444",
     "editorGutter.foldingControlForeground": "#6E7681",
-    "editorCodeLens.foreground": "#10101084",
+    "editorCodeLens.foreground": "#51596288",
+    "editorInlayHint.foreground": "#515962aa",
+    "editorInlayHint.background": "#14141400",
+    "editorInlayHint.typeForeground": "#51596299",
+    "editorInlayHint.typeBackground": "#14141400",
+    "editorInlayHint.parameterForeground": "#51596299",
+    "editorInlayHint.parameterBackground": "#14141400",
 
     // ── Editor Widget (Find/Replace, Suggest, Hover) ──
     "editorWidget.background": "#1a1a1a",
@@ -512,7 +518,7 @@
         "string.interpolated"
       ],
       "settings": {
-        "foreground": "#4AEDC4"
+        "foreground": "#CE9178"
       }
     },
     {
@@ -581,7 +587,7 @@
         "support.constant"
       ],
       "settings": {
-        "foreground": "#c59eff"
+        "foreground": "#4FC1FF"
       }
     },
     {
@@ -593,11 +599,23 @@
         "entity.name.type.enum",
         "entity.name.struct",
         "support.type",
-        "support.class",
-        "support.type.primitive"
+        "support.class"
       ],
       "settings": {
         "foreground": "#afecae"
+      }
+    },
+    {
+      "name": "Primitive and built-in types",
+      "scope": [
+        "support.type.primitive",
+        "support.type.builtin",
+        "storage.type.primitive",
+        "keyword.type",
+        "keyword.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#569CD6"
       }
     },
     {
