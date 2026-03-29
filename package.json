@@ -1,13 +1,27 @@
 {
   "name": "mintshot-theme",
   "displayName": "MintShot",
+  "description": "A dark, mint-accented theme for the Solana-pilled developer.",
   "version": "1.0.0",
+  "publisher": "mintshot",
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "dark",
+    "mint",
+    "solana",
+    "web3",
+    "theme"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timfewi/mintshot-theme"
+  },
   "contributes": {
     "themes": [
       {
