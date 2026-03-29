@@ -1,47 +1,68 @@
 # MintShot
 
-MintShot is a dark VS Code theme with mint-forward accents, low-glare backgrounds, and bright syntax contrast for long coding sessions.
+![MintShot banner](./assets/mintshot-banner.svg)
 
-## Installation
+MintShot is a dark VS Code theme with mint-accented UI colors, soft contrast, and bright syntax highlights designed to stay readable during long coding sessions.
 
-Once the extension is published, install it from:
+## What it looks like
 
-- the VS Code Marketplace by searching for `MintShot`
+MintShot is built around:
 
-You can also install it manually from a release artifact:
+- a deep dark background
+- mint and sea-green accent colors
+- bright function and symbol highlighting
+- low-glare panels, tabs, and sidebars
+
+## Install
+
+### From the VS Code Marketplace
+
+Once published, search for `MintShot` in the Extensions view and install it like any other VS Code theme.
+
+### From a `.vsix` file
 
 1. Download the latest `.vsix` from the repo's releases.
 2. In VS Code, run `Extensions: Install from VSIX...`.
-3. Select the downloaded file and switch your color theme to `MintShot`.
+3. Select the downloaded file.
+4. Open `Preferences: Color Theme` and choose `MintShot`.
 
-## Local development
+## Development
 
 To work on the theme locally:
 
 1. Open this repo in VS Code.
 2. Press `F5` to launch an Extension Development Host.
-3. In the new window, open `Preferences: Color Theme` and select `MintShot`.
+3. In the new window, open `Preferences: Color Theme`.
+4. Select `MintShot`.
 
-To build a local package:
+To package the extension locally:
 
 ```bash
 npm run package
 ```
 
-That command creates a `.vsix` you can install locally or attach to a GitHub release.
+This creates a `.vsix` you can install manually or attach to a GitHub release.
 
 ## Publishing
 
-This repo is set up for the VS Code Marketplace.
+This repo targets the VS Code Marketplace.
 
-- `npm run publish:vsce` publishes to the VS Code Marketplace.
+### Manual publish
 
-The included GitHub Actions workflow can also package the extension and publish it when the required secrets are configured.
+```bash
+npm run publish:vsce
+```
 
-- `VSCE_PAT` for the VS Code Marketplace publisher token
+### GitHub Actions publish
 
-## Repository layout
+The included GitHub Actions workflow can package and publish the extension when the `VSCE_PAT` repository secret is configured.
 
-- `package.json` contains extension metadata and publishing scripts.
-- `themes/mintshot-dark-color-theme.json` contains the actual theme definition.
-- `.github/workflows/publish.yml` packages and publishes release builds.
+## Repo structure
+
+- `package.json` contains extension metadata and publish/package scripts.
+- `themes/mintshot-dark-color-theme.json` contains the theme definition.
+- `.github/workflows/publish.yml` contains the release workflow.
+
+## License
+
+MintShot is released under the MIT License.
