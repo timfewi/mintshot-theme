@@ -37,7 +37,7 @@
     "variable":               "#FFFFFF",
     "variable.readonly":      "#e1cffd",
     "variable.defaultLibrary":"#b4f1ff",
-    "parameter":              "#ffd0ec",
+    "parameter":              "#f9ffd0e7",
 
     "property":               "#5ee1ff",
     "property.readonly":      "#c59eff",
