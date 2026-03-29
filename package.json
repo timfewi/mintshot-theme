@@ -1,0 +1,20 @@
+{
+  "name": "mintshot-theme",
+  "displayName": "MintShot",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MintShot",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintshot-color-theme.json"
+      }
+    ]
+  }
+}
