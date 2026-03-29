@@ -42,9 +42,9 @@
     "property":               "#7DD3FC",
     "property.readonly":      "#38BDF8",
 
-    "function":               "#F2D06B",
-    "function.defaultLibrary":"#EBCB8B",
-    "method":                 "#F2D06B"
+    "function":               "#FFD54F",
+    "function.defaultLibrary":"#FFCC33",
+    "method":                 "#FFD54F"
   },
   "colors": {
     "editor.background": "#141414",
@@ -585,7 +585,7 @@
       "settings": { "foreground": "#C4B5FD" }
     },
     {
-      "name": "Functions and methods (yellow)",
+      "name": "Functions and methods (strong yellow)",
       "scope": [
         "entity.name.function",
         "entity.name.function.member",
@@ -597,7 +597,7 @@
         "variable.function",
         "variable.method"
       ],
-      "settings": { "foreground": "#F2D06B" }
+      "settings": { "foreground": "#FFD54F" }
     },
     {
       "name": "Rust macros (magenta)",
