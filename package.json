@@ -29,8 +29,8 @@
     "vscode"
   ],
   "scripts": {
-    "package": "bun run package",
-    "publish:vsce": "bun run publish:vsce"
+    "package": "bunx @vscode/vsce package",
+    "publish:vsce": "bunx @vscode/vsce publish"
   },
   "files": [
     "themes/**",
