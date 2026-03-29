@@ -26,9 +26,9 @@
     "event": "#5ee1ff",
     "macro": "#ffec95",
     "label": "#5ee1ff",
-    "variable": "#ffffff",
+    "variable": "#9CDCFE",
     "variable.readonly": "#c59eff",
-    "variable.defaultLibrary": "#5ee1ff",
+    "variable.defaultLibrary": "#9CDCFE",
     "parameter": "#e7ffc2",
     "property": "#5ee1ff",
     "property.readonly": "#c59eff",
@@ -547,9 +547,14 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable", "variable.other.readwrite", "entity.name.variable"],
+      "scope": [
+        "variable",
+        "variable.other.readwrite",
+        "entity.name.variable",
+        "support.variable"
+      ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#9CDCFE"
       }
     },
     {
