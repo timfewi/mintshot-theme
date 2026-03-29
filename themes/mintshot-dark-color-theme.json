@@ -49,8 +49,8 @@
     "editorOverviewRuler.findMatchForeground": "#4AEDC466",
     "editorOverviewRuler.selectionHighlightForeground": "#4AEDC433",
     "editorOverviewRuler.modifiedForeground": "#3ECFA066",
-    "editorOverviewRuler.addedForeground": "#4AEDC466",
-    "editorOverviewRuler.deletedForeground": "#f4756666",
+    "editorOverviewRuler.addedForeground": "#22C55E66",
+    "editorOverviewRuler.deletedForeground": "#EF444466",
     "editorOverviewRuler.errorForeground": "#f47566",
     "editorOverviewRuler.warningForeground": "#e2c56e",
     "editorOverviewRuler.infoForeground": "#4AEDC4",
@@ -60,8 +60,8 @@
     "editorHint.foreground": "#3ECFA0",
     "editorGutter.background": "#141414",
     "editorGutter.modifiedBackground": "#3ECFA0",
-    "editorGutter.addedBackground": "#4AEDC4",
-    "editorGutter.deletedBackground": "#f47566",
+    "editorGutter.addedBackground": "#22C55E",
+    "editorGutter.deletedBackground": "#EF4444",
     "editorGutter.foldingControlForeground": "#6E7681",
     "editorCodeLens.foreground": "#515962",
 
@@ -100,10 +100,10 @@
     "peekViewTitleDescription.foreground": "#bacac3",
 
     // ── Diff Editor ──
-    "diffEditor.insertedTextBackground": "#4AEDC41a",
-    "diffEditor.removedTextBackground": "#f475661a",
-    "diffEditor.insertedLineBackground": "#4AEDC40d",
-    "diffEditor.removedLineBackground": "#f475660d",
+    "diffEditor.insertedTextBackground": "#22C55E26",
+    "diffEditor.removedTextBackground": "#EF444426",
+    "diffEditor.insertedLineBackground": "#22C55E12",
+    "diffEditor.removedLineBackground": "#EF444412",
     "diffEditor.diagonalFill": "#2a2a2a",
 
     // ── Merge Conflicts ──
@@ -250,9 +250,9 @@
     "minimapSlider.background": "#bacac310",
     "minimapSlider.hoverBackground": "#bacac320",
     "minimapSlider.activeBackground": "#bacac330",
-    "minimapGutter.addedBackground": "#4AEDC4",
+    "minimapGutter.addedBackground": "#22C55E",
     "minimapGutter.modifiedBackground": "#3ECFA0",
-    "minimapGutter.deletedBackground": "#f47566",
+    "minimapGutter.deletedBackground": "#EF4444",
 
     // ── Breadcrumbs ──
     "breadcrumb.foreground": "#6E7681",
@@ -365,15 +365,15 @@
     "settings.rowHoverBackground": "#1a1a1a55",
 
     // ── Git Decorations ──
-    "gitDecoration.addedResourceForeground": "#4AEDC4",
+    "gitDecoration.addedResourceForeground": "#22C55E",
     "gitDecoration.modifiedResourceForeground": "#3ECFA0",
-    "gitDecoration.deletedResourceForeground": "#f47566",
-    "gitDecoration.untrackedResourceForeground": "#4AEDC4aa",
+    "gitDecoration.deletedResourceForeground": "#EF4444",
+    "gitDecoration.untrackedResourceForeground": "#22C55Eaa",
     "gitDecoration.ignoredResourceForeground": "#515962",
     "gitDecoration.conflictingResourceForeground": "#e2c56e",
     "gitDecoration.renamedResourceForeground": "#3ECFA0",
     "gitDecoration.stageModifiedResourceForeground": "#3ECFA0",
-    "gitDecoration.stageDeletedResourceForeground": "#f47566",
+    "gitDecoration.stageDeletedResourceForeground": "#EF4444",
     "gitDecoration.submoduleResourceForeground": "#bacac3",
 
     // ── Debug ──
