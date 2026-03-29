@@ -1,7 +1,7 @@
 {
   "name": "MintShot",
   "type": "dark",
-  "semanticHighlighting": true,
+  "semanticHighlighting": false,
   "semanticTokenColors": {
     "comment": {
       "foreground": "#6A737D",
@@ -485,7 +485,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#6A737D",
+        "foreground": "#3f4348c1",
         "fontStyle": "italic"
       }
     },
