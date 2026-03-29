@@ -1,8 +1,8 @@
 {
   "name": "mintshot-theme",
-  "displayName": "MintShot",
+  "displayName": "MintShot theme",
   "description": "A dark, mint-accented theme for VS Code and compatible editors.",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "publisher": "mintshot",
   "license": "MIT",
   "homepage": "https://github.com/timfewi/mintshot-theme#readme",
