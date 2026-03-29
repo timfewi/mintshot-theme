@@ -361,23 +361,27 @@
     "toolbar.activeBackground": "#2a2a2a"
   },
   "semanticTokenColors": {
+    "comment": {
+      "foreground": "#3E4A4580",
+      "fontStyle": "italic"
+    },
     "variable": {
-      "foreground": "#D4D4D4"
+      "foreground": "#E0E2EA"
     },
     "variable.readonly": {
-      "foreground": "#D4D4D4"
+      "foreground": "#E8EAF2"
     },
     "property": {
-      "foreground": "#B8E7FF"
+      "foreground": "#C6EEFF"
     },
     "property.readonly": {
-      "foreground": "#B8E7FF"
+      "foreground": "#C6EEFF"
     },
     "property.declaration": {
-      "foreground": "#B8E7FF"
+      "foreground": "#C6EEFF"
     },
     "property.declaration.readonly": {
-      "foreground": "#B8E7FF"
+      "foreground": "#C6EEFF"
     },
     "enum": {
       "foreground": "#C586C0"
@@ -411,7 +415,8 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#6A9955"
+        "foreground": "#3E4A4580",
+        "fontStyle": "italic"
       }
     },
     {
@@ -834,14 +839,14 @@
         "entity.name.variable"
       ],
       "settings": {
-        "foreground": "#D4D4D4"
+        "foreground": "#E0E2EA"
       }
     },
     {
       "name": "Object keys, TS grammar specific",
       "scope": ["meta.object-literal.key"],
       "settings": {
-        "foreground": "#B8E7FF"
+        "foreground": "#C6EEFF"
       }
     },
     {
@@ -945,7 +950,8 @@
     {
       "scope": "punctuation.definition.comment",
       "settings": {
-        "foreground": "#6A9955"
+        "foreground": "#3E4A4580",
+        "fontStyle": "italic"
       }
     },
     {
@@ -965,21 +971,21 @@
       "name": "Field",
       "scope": "entity.name.variable.field",
       "settings": {
-        "foreground": "#B8E7FF"
+        "foreground": "#C6EEFF"
       }
     },
     {
       "name": "Property",
       "scope": "variable.other.property",
       "settings": {
-        "foreground": "#B8E7FF"
+        "foreground": "#C6EEFF"
       }
     },
     {
       "name": "Constant",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#D4D4D4"
+        "foreground": "#E0E2EA"
       }
     },
     {
@@ -1021,35 +1027,40 @@
       "name": "Xml Documentation Comment",
       "scope": "comment.documentation",
       "settings": {
-        "foreground": "#608B4E"
+        "foreground": "#3E4A4580",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Xml Documentation Comment Attribute",
       "scope": "comment.documentation.attribute",
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#3E4A4580",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Xml Documentation Comment CDATA",
       "scope": "comment.documentation.cdata",
       "settings": {
-        "foreground": "#E9D585"
+        "foreground": "#3E4A4580",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Xml Documentation Comment Delimiter",
       "scope": "comment.documentation.delimiter",
       "settings": {
-        "foreground": "#808080"
+        "foreground": "#3E4A4580",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Xml Documentation Comment Name",
       "scope": "comment.documentation.name",
       "settings": {
-        "foreground": "#569CD6"
+        "foreground": "#3E4A4580",
+        "fontStyle": "italic"
       }
     }
   ]

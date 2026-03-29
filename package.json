@@ -2,7 +2,7 @@
   "name": "mintshot-theme",
   "displayName": "MintShot Themes",
   "description": "A collection of dark, mint-accented themes for VS Code and compatible editors.",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "publisher": "mintshot",
   "license": "MIT",
   "homepage": "https://github.com/timfewi/mintshot-theme#readme",
