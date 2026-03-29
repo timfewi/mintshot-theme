@@ -368,10 +368,16 @@
       "foreground": "#D4D4D4"
     },
     "property": {
-      "foreground": "#9CDCFE"
+      "foreground": "#B8E7FF"
     },
     "property.readonly": {
-      "foreground": "#9CDCFE"
+      "foreground": "#B8E7FF"
+    },
+    "property.declaration": {
+      "foreground": "#B8E7FF"
+    },
+    "property.declaration.readonly": {
+      "foreground": "#B8E7FF"
     },
     "enum": {
       "foreground": "#C586C0"
@@ -645,7 +651,7 @@
         "source.coffee.embedded"
       ],
       "settings": {
-        "foreground": "#9cdcfe"
+        "foreground": "#B8E7FF"
       }
     },
     {
@@ -779,6 +785,18 @@
       }
     },
     {
+      "name": "Rust derive macro targets",
+      "scope": [
+        "meta.attribute.rust entity.name.type",
+        "meta.attribute.rust entity.name.class",
+        "meta.attribute.rust support.class",
+        "meta.attribute.rust support.type"
+      ],
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
       "name": "Types declaration and references, TS grammar specific",
       "scope": [
         "meta.type.cast.expr",
@@ -823,7 +841,7 @@
       "name": "Object keys, TS grammar specific",
       "scope": ["meta.object-literal.key"],
       "settings": {
-        "foreground": "#9CDCFE"
+        "foreground": "#B8E7FF"
       }
     },
     {
@@ -947,14 +965,14 @@
       "name": "Field",
       "scope": "entity.name.variable.field",
       "settings": {
-        "foreground": "#9CDCFE"
+        "foreground": "#B8E7FF"
       }
     },
     {
       "name": "Property",
       "scope": "variable.other.property",
       "settings": {
-        "foreground": "#9CDCFE"
+        "foreground": "#B8E7FF"
       }
     },
     {
