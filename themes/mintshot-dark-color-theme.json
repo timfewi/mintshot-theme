@@ -444,7 +444,7 @@
     {
       "name": "Comments",
       "scope": ["comment", "comment.block.documentation", "comment.line.documentation", "punctuation.definition.comment"],
-      "settings": { "foreground": "#6A737D", "fontStyle": "italic" }
+      "settings": { "foreground": "#ededed51", "fontStyle": "italic" }
     },
     {
       "name": "Control flow keywords (purple)",
@@ -471,7 +471,7 @@
         "keyword.other.crate",
         "keyword.other.use"
       ],
-      "settings": { "foreground": "#C792EA" }
+      "settings": { "foreground": "#4AEDC4" }
     },
     {
       "name": "Declaration keywords and storage (blue)",
@@ -485,12 +485,12 @@
         "keyword.declaration",
         "keyword.other"
       ],
-      "settings": { "foreground": "#58A6FF" }
+      "settings": { "foreground": "#4AEDC4" }
     },
     {
       "name": "Catch-all keyword (purple fallback)",
       "scope": ["keyword"],
-      "settings": { "foreground": "#C792EA" }
+      "settings": { "foreground": "#4AEDC4" }
     },
     {
       "name": "Operators and punctuation",
@@ -512,7 +512,7 @@
         "meta.brace",
         "meta.delimiter"
       ],
-      "settings": { "foreground": "#ABB2BF" }
+      "settings": { "foreground": "#bacac3" }
     },
     {
       "name": "Strings",
@@ -542,7 +542,7 @@
     {
       "name": "Parameters",
       "scope": ["variable.parameter", "meta.parameter"],
-      "settings": { "foreground": "#e7ffc2" }
+      "settings": { "foreground": "#91a1ff" }
     },
     {
       "name": "Properties and fields",
