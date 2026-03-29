@@ -16,9 +16,9 @@
       "fontStyle": "bold"
     },
     "operator": "#7A8A84",
-    "string": "#FEE2E2",
+    "string": "#7DD3FC",
     "regexp": {
-      "foreground": "#FCA5A5",
+      "foreground": "#FDA4AF",
       "fontStyle": "italic"
     },
     "number": "#C084FC",
@@ -43,7 +43,7 @@
       "fontStyle": "bold"
     },
     "class.defaultLibrary": {
-      "foreground": "#FCA5A5",
+      "foreground": "#F87171",
       "fontStyle": ""
     },
     "interface": {
@@ -55,7 +55,7 @@
       "fontStyle": "bold"
     },
     "enum": {
-      "foreground": "#FC8181",
+      "foreground": "#FB7185",
       "fontStyle": "bold"
     },
     "enumMember": "#F87171",
@@ -85,15 +85,15 @@
       "fontStyle": "bold"
     },
     "function": {
-      "foreground": "#F2D06B",
+      "foreground": "#FCD34D",
       "fontStyle": "bold"
     },
     "function.defaultLibrary": {
-      "foreground": "#F2D06B",
+      "foreground": "#FCD34D",
       "fontStyle": "bold"
     },
     "method": {
-      "foreground": "#F2D06B",
+      "foreground": "#FCD34D",
       "fontStyle": "bold"
     }
   },
@@ -204,7 +204,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#FEE2E2"
+        "foreground": "#7DD3FC"
       }
     },
     {
@@ -216,7 +216,7 @@
         "support.other.regexp"
       ],
       "settings": {
-        "foreground": "#FCA5A5",
+        "foreground": "#FDA4AF",
         "fontStyle": "italic"
       }
     },
@@ -337,7 +337,7 @@
         "entity.name.type.enum"
       ],
       "settings": {
-        "foreground": "#FC8181",
+        "foreground": "#FB7185",
         "fontStyle": "bold"
       }
     },
@@ -373,7 +373,7 @@
         "keyword.type.string"
       ],
       "settings": {
-        "foreground": "#FCA5A5"
+        "foreground": "#FECACA"
       }
     },
     {
@@ -398,7 +398,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "#F2D06B",
+        "foreground": "#FCD34D",
         "fontStyle": "bold"
       }
     },
@@ -469,7 +469,7 @@
         "support.class.component"
       ],
       "settings": {
-        "foreground": "#F87171",
+        "foreground": "#DC2626",
         "fontStyle": "bold"
       }
     },
@@ -500,7 +500,7 @@
         "constant.character.escape"
       ],
       "settings": {
-        "foreground": "#F2D06B",
+        "foreground": "#FCD34D",
         "fontStyle": "bold"
       }
     },

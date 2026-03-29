@@ -16,30 +16,30 @@
       "fontStyle": "bold"
     },
     "operator": "#7A8A84",
-    "string": "#D1FAE5",
+    "string": "#FDBA74",
     "regexp": {
-      "foreground": "#86EFAC",
+      "foreground": "#6EE7B7",
       "fontStyle": "italic"
     },
-    "number": "#F48FB1",
+    "number": "#F472B6",
     "namespace": {
       "foreground": "#7A8A84",
       "fontStyle": "italic"
     },
     "type": {
-      "foreground": "#34D399",
+      "foreground": "#2DD4BF",
       "fontStyle": "bold"
     },
     "type.defaultLibrary": {
-      "foreground": "#6EE7B7",
+      "foreground": "#99F6E4",
       "fontStyle": ""
     },
     "typeParameter": {
-      "foreground": "#A7F3D0",
+      "foreground": "#CCFBF1",
       "fontStyle": "italic"
     },
     "class": {
-      "foreground": "#22D3A5",
+      "foreground": "#34D399",
       "fontStyle": "bold"
     },
     "class.defaultLibrary": {
@@ -51,7 +51,7 @@
       "fontStyle": "italic"
     },
     "struct": {
-      "foreground": "#00E5A0",
+      "foreground": "#10B981",
       "fontStyle": "bold"
     },
     "enum": {
@@ -60,14 +60,14 @@
     },
     "enumMember": "#4ADE80",
     "decorator": {
-      "foreground": "#FF6B6B",
+      "foreground": "#FB7185",
       "fontStyle": "italic"
     },
     "macro": {
-      "foreground": "#FF6B6B",
+      "foreground": "#FB7185",
       "fontStyle": "bold"
     },
-    "event": "#6EE7B7",
+    "event": "#86EFAC",
     "label": "#34D399",
     "variable": "#D4D4D4",
     "variable.readonly": {
@@ -76,24 +76,24 @@
     },
     "variable.defaultLibrary": "#B0B0B0",
     "parameter": {
-      "foreground": "#A7F3D0",
+      "foreground": "#CCFBF1",
       "fontStyle": "italic"
     },
-    "property": "#6EE7B7",
+    "property": "#86EFAC",
     "property.readonly": {
-      "foreground": "#34D399",
+      "foreground": "#2DD4BF",
       "fontStyle": "bold"
     },
     "function": {
-      "foreground": "#F2D06B",
+      "foreground": "#FCD34D",
       "fontStyle": "bold"
     },
     "function.defaultLibrary": {
-      "foreground": "#F2D06B",
+      "foreground": "#FCD34D",
       "fontStyle": "bold"
     },
     "method": {
-      "foreground": "#F2D06B",
+      "foreground": "#FCD34D",
       "fontStyle": "bold"
     }
   },
@@ -204,7 +204,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#D1FAE5"
+        "foreground": "#FDBA74"
       }
     },
     {
@@ -216,7 +216,7 @@
         "support.other.regexp"
       ],
       "settings": {
-        "foreground": "#86EFAC",
+        "foreground": "#6EE7B7",
         "fontStyle": "italic"
       }
     },
@@ -226,7 +226,7 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#F48FB1"
+        "foreground": "#F472B6"
       }
     },
     {
@@ -239,7 +239,7 @@
         "support.constant.builtin"
       ],
       "settings": {
-        "foreground": "#F48FB1",
+        "foreground": "#F472B6",
         "fontStyle": "bold"
       }
     },
@@ -265,7 +265,7 @@
         "meta.parameter"
       ],
       "settings": {
-        "foreground": "#A7F3D0",
+        "foreground": "#CCFBF1",
         "fontStyle": "italic"
       }
     },
@@ -279,7 +279,7 @@
         "entity.name.record.field"
       ],
       "settings": {
-        "foreground": "#6EE7B7"
+        "foreground": "#86EFAC"
       }
     },
     {
@@ -305,7 +305,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#34D399",
+        "foreground": "#2DD4BF",
         "fontStyle": "bold"
       }
     },
@@ -317,7 +317,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#22D3A5",
+        "foreground": "#34D399",
         "fontStyle": "bold"
       }
     },
@@ -347,7 +347,7 @@
         "entity.name.struct"
       ],
       "settings": {
-        "foreground": "#00E5A0",
+        "foreground": "#10B981",
         "fontStyle": "bold"
       }
     },
@@ -357,7 +357,7 @@
         "entity.name.type.parameter"
       ],
       "settings": {
-        "foreground": "#A7F3D0",
+        "foreground": "#CCFBF1",
         "fontStyle": "italic"
       }
     },
@@ -373,7 +373,7 @@
         "keyword.type.string"
       ],
       "settings": {
-        "foreground": "#86EFAC"
+        "foreground": "#99F6E4"
       }
     },
     {
@@ -398,7 +398,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "#F2D06B",
+        "foreground": "#FCD34D",
         "fontStyle": "bold"
       }
     },
@@ -409,7 +409,7 @@
         "support.function.macro"
       ],
       "settings": {
-        "foreground": "#FF6B6B",
+        "foreground": "#FB7185",
         "fontStyle": "bold"
       }
     },
@@ -422,7 +422,7 @@
         "punctuation.decorator"
       ],
       "settings": {
-        "foreground": "#FF6B6B",
+        "foreground": "#FB7185",
         "fontStyle": "italic"
       }
     },
@@ -434,7 +434,7 @@
         "storage.modifier.lifetime"
       ],
       "settings": {
-        "foreground": "#A7F3D0",
+        "foreground": "#CCFBF1",
         "fontStyle": "italic"
       }
     },
@@ -446,7 +446,7 @@
         "punctuation.brackets.attribute.rust"
       ],
       "settings": {
-        "foreground": "#FF6B6B",
+        "foreground": "#FB7185",
         "fontStyle": "italic"
       }
     },
@@ -469,7 +469,7 @@
         "support.class.component"
       ],
       "settings": {
-        "foreground": "#4ADE80",
+        "foreground": "#34D399",
         "fontStyle": "bold"
       }
     },
@@ -500,7 +500,7 @@
         "constant.character.escape"
       ],
       "settings": {
-        "foreground": "#F2D06B",
+        "foreground": "#FCD34D",
         "fontStyle": "bold"
       }
     },
@@ -556,7 +556,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#22D3A5"
+        "foreground": "#10B981"
       }
     },
     {
@@ -610,7 +610,7 @@
         "constant.numeric.css"
       ],
       "settings": {
-        "foreground": "#6EE7B7"
+        "foreground": "#86EFAC"
       }
     },
     {
@@ -643,7 +643,7 @@
         "entity.other.attribute-name.table.array.toml"
       ],
       "settings": {
-        "foreground": "#22D3A5",
+        "foreground": "#10B981",
         "fontStyle": "bold"
       }
     },

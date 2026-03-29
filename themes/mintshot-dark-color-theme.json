@@ -16,7 +16,7 @@
       "fontStyle": "bold"
     },
     "operator": "#7A8A84",
-    "string": "#FDBA74",
+    "string": "#FB923C",
     "regexp": {
       "foreground": "#81C784",
       "fontStyle": "italic"
@@ -79,9 +79,9 @@
       "foreground": "#A0C4B8",
       "fontStyle": "italic"
     },
-    "property": "#B2DFDB",
+    "property": "#8FB3FF",
     "property.readonly": {
-      "foreground": "#80CBC4",
+      "foreground": "#B8CCFF",
       "fontStyle": "bold"
     },
     "function": {
@@ -520,7 +520,9 @@
     },
     {
       "name": "Keyword Fallback",
-      "scope": ["keyword"],
+      "scope": [
+        "keyword"
+      ],
       "settings": {
         "foreground": "#C084FC",
         "fontStyle": "bold"
@@ -560,7 +562,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#FDBA74"
+        "foreground": "#FB923C"
       }
     },
     {
@@ -578,7 +580,9 @@
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric"],
+      "scope": [
+        "constant.numeric"
+      ],
       "settings": {
         "foreground": "#F48FB1"
       }
@@ -614,7 +618,10 @@
     },
     {
       "name": "Parameters",
-      "scope": ["variable.parameter", "meta.parameter"],
+      "scope": [
+        "variable.parameter",
+        "meta.parameter"
+      ],
       "settings": {
         "foreground": "#A0C4B8",
         "fontStyle": "italic"
@@ -630,7 +637,7 @@
         "entity.name.record.field"
       ],
       "settings": {
-        "foreground": "#B2DFDB"
+        "foreground": "#8FB3FF"
       }
     },
     {
@@ -666,7 +673,9 @@
     },
     {
       "name": "Interfaces",
-      "scope": ["entity.name.type.interface"],
+      "scope": [
+        "entity.name.type.interface"
+      ],
       "settings": {
         "foreground": "#00E5A0",
         "fontStyle": "italic"
@@ -674,7 +683,9 @@
     },
     {
       "name": "Enums",
-      "scope": ["entity.name.type.enum"],
+      "scope": [
+        "entity.name.type.enum"
+      ],
       "settings": {
         "foreground": "#38BDF8",
         "fontStyle": "bold"
@@ -682,7 +693,9 @@
     },
     {
       "name": "Type Parameters",
-      "scope": ["entity.name.type.parameter"],
+      "scope": [
+        "entity.name.type.parameter"
+      ],
       "settings": {
         "foreground": "#A7FFEB",
         "fontStyle": "italic"
@@ -731,7 +744,10 @@
     },
     {
       "name": "Macros",
-      "scope": ["entity.name.function.macro", "support.function.macro"],
+      "scope": [
+        "entity.name.function.macro",
+        "support.function.macro"
+      ],
       "settings": {
         "foreground": "#FF6B6B",
         "fontStyle": "bold"
@@ -789,7 +805,9 @@
     },
     {
       "name": "React Components",
-      "scope": ["support.class.component"],
+      "scope": [
+        "support.class.component"
+      ],
       "settings": {
         "foreground": "#4AEDC4",
         "fontStyle": "bold"
@@ -803,20 +821,24 @@
         "entity.other.attribute-name.id"
       ],
       "settings": {
-        "foreground": "#80CBC4",
+        "foreground": "#A4BCFF",
         "fontStyle": "italic"
       }
     },
     {
       "name": "Labels",
-      "scope": ["entity.name.label"],
+      "scope": [
+        "entity.name.label"
+      ],
       "settings": {
         "foreground": "#80CBC4"
       }
     },
     {
       "name": "Escape Characters",
-      "scope": ["constant.character.escape"],
+      "scope": [
+        "constant.character.escape"
+      ],
       "settings": {
         "foreground": "#F2D06B",
         "fontStyle": "bold"
@@ -847,7 +869,9 @@
     },
     {
       "name": "Markup Bold",
-      "scope": ["markup.bold"],
+      "scope": [
+        "markup.bold"
+      ],
       "settings": {
         "foreground": "#E8E8E8",
         "fontStyle": "bold"
@@ -855,7 +879,9 @@
     },
     {
       "name": "Markup Italic",
-      "scope": ["markup.italic"],
+      "scope": [
+        "markup.italic"
+      ],
       "settings": {
         "foreground": "#E8E8E8",
         "fontStyle": "italic"
@@ -875,14 +901,19 @@
     },
     {
       "name": "Markup Lists",
-      "scope": ["markup.list", "punctuation.definition.list"],
+      "scope": [
+        "markup.list",
+        "punctuation.definition.list"
+      ],
       "settings": {
         "foreground": "#7A8A84"
       }
     },
     {
       "name": "Markup Quotes",
-      "scope": ["markup.quote"],
+      "scope": [
+        "markup.quote"
+      ],
       "settings": {
         "foreground": "#546E64",
         "fontStyle": "italic"
@@ -890,7 +921,10 @@
     },
     {
       "name": "Invalid & Deprecated",
-      "scope": ["invalid", "invalid.deprecated"],
+      "scope": [
+        "invalid",
+        "invalid.deprecated"
+      ],
       "settings": {
         "foreground": "#FF6B6B",
         "fontStyle": "bold"
@@ -955,7 +989,9 @@
     },
     {
       "name": "JSON Keys",
-      "scope": ["support.type.property-name.json"],
+      "scope": [
+        "support.type.property-name.json"
+      ],
       "settings": {
         "foreground": "#80CBC4",
         "fontStyle": "italic"
