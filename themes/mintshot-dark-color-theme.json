@@ -1,7 +1,7 @@
 {
   "name": "MintShot",
   "type": "dark",
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   "semanticTokenColors": {
     "comment": {
       "foreground": "#6A737D",
