@@ -27,7 +27,7 @@
       {
         "label": "MintShot",
         "uiTheme": "vs-dark",
-        "path": "./themes/mintshot-color-theme.json"
+        "path": "./themes/mintshot-dark-color-theme.json"
       }
     ]
   }
