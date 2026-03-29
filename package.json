@@ -19,6 +19,7 @@
     "color": "#141414",
     "theme": "dark"
   },
+  "icon": "assets/mintshot-logo.png",
   "keywords": [
     "dark",
     "mint",
@@ -33,6 +34,7 @@
   },
   "files": [
     "themes/**",
+    "assets/**",
     "README.md",
     "CHANGELOG.md",
     "LICENSE"

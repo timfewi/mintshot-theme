@@ -38,7 +38,7 @@ To work on the theme locally:
 To package the extension locally:
 
 ```bash
-npm run package
+bun run package
 ```
 
 This creates a `.vsix` you can install manually or attach to a GitHub release.
@@ -50,7 +50,7 @@ This repo targets the VS Code Marketplace.
 ### Manual publish
 
 ```bash
-npm run publish:vsce
+bun run publish:vsce
 ```
 
 ### GitHub Actions publish
