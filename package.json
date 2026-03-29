@@ -1,8 +1,8 @@
 {
   "name": "mintshot-theme",
-  "displayName": "MintShot theme",
-  "description": "A dark, mint-accented theme for VS Code and compatible editors.",
-  "version": "1.0.25",
+  "displayName": "MintShot Themes",
+  "description": "A collection of dark, mint-accented themes for VS Code and compatible editors.",
+  "version": "1.0.26",
   "publisher": "mintshot",
   "license": "MIT",
   "homepage": "https://github.com/timfewi/mintshot-theme#readme",
@@ -46,9 +46,39 @@
   "contributes": {
     "themes": [
       {
-        "label": "MintShot",
+        "label": "MintShot Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/mintshot-dark-color-theme.json"
+      },
+      {
+        "label": "MintShot Dark Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintshot-dark-blue-color-theme.json"
+      },
+      {
+        "label": "MintShot Dark Orange",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintshot-dark-orange-color-theme.json"
+      },
+      {
+        "label": "MintShot Dark Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintshot-dark-purple-color-theme.json"
+      },
+      {
+        "label": "MintShot Dark Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintshot-dark-red-color-theme.json"
+      },
+      {
+        "label": "MintShot Dark Yellow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintshot-dark-yellow-color-theme.json"
+      },
+      {
+        "label": "MintShot Dark Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintshot-dark-green-color-theme.json"
       }
     ]
   }

@@ -8,15 +8,15 @@
       "fontStyle": "italic"
     },
     "keyword": {
-      "foreground": "#C084FC",
+      "foreground": "#4AEDC4",
       "fontStyle": "bold"
     },
     "keyword.declaration": {
-      "foreground": "#C084FC",
+      "foreground": "#4AEDC4",
       "fontStyle": "bold"
     },
     "operator": "#7A8A84",
-    "string": "#FDBA74",
+    "string": "#E8F5E9",
     "regexp": {
       "foreground": "#81C784",
       "fontStyle": "italic"
@@ -27,11 +27,11 @@
       "fontStyle": "italic"
     },
     "type": {
-      "foreground": "#4AEDC4",
+      "foreground": "#78B7FF",
       "fontStyle": "bold"
     },
     "type.defaultLibrary": {
-      "foreground": "#81C784",
+      "foreground": "#8CC8FF",
       "fontStyle": ""
     },
     "typeParameter": {
@@ -39,26 +39,26 @@
       "fontStyle": "italic"
     },
     "class": {
-      "foreground": "#3ECFA0",
+      "foreground": "#4FC3F7",
       "fontStyle": "bold"
     },
     "class.defaultLibrary": {
-      "foreground": "#81C784",
+      "foreground": "#7FD6FF",
       "fontStyle": ""
     },
     "interface": {
-      "foreground": "#00E5A0",
+      "foreground": "#9AD8FF",
       "fontStyle": "italic"
     },
     "struct": {
-      "foreground": "#66FFCC",
+      "foreground": "#35D4F0",
       "fontStyle": "bold"
     },
     "enum": {
-      "foreground": "#38BDF8",
+      "foreground": "#82AAFF",
       "fontStyle": "bold"
     },
-    "enumMember": "#60A5FA",
+    "enumMember": "#5EEAD4",
     "decorator": {
       "foreground": "#FF6B6B",
       "fontStyle": "italic"
@@ -486,7 +486,7 @@
         "keyword.control.exception"
       ],
       "settings": {
-        "foreground": "#C084FC",
+        "foreground": "#4AEDC4",
         "fontStyle": "bold"
       }
     },
@@ -514,7 +514,7 @@
         "keyword.other.where.rust"
       ],
       "settings": {
-        "foreground": "#C084FC",
+        "foreground": "#4AEDC4",
         "fontStyle": "bold"
       }
     },
@@ -522,7 +522,7 @@
       "name": "Keyword Fallback",
       "scope": ["keyword"],
       "settings": {
-        "foreground": "#C084FC",
+        "foreground": "#4AEDC4",
         "fontStyle": "bold"
       }
     },
@@ -560,7 +560,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#FDBA74"
+        "foreground": "#E8F5E9"
       }
     },
     {
@@ -643,24 +643,32 @@
         "entity.name.constant"
       ],
       "settings": {
-        "foreground": "#60A5FA",
+        "foreground": "#5EEAD4",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "Types & Classes",
+      "name": "Types & Aliases",
       "scope": [
         "entity.name.type",
-        "entity.name.type.class",
-        "entity.name.struct",
         "entity.name.type.alias",
         "entity.name.union",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#78B7FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": [
+        "entity.name.type.class",
         "support.class",
-        "support.type",
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#3ECFA0",
+        "foreground": "#4FC3F7",
         "fontStyle": "bold"
       }
     },
@@ -668,7 +676,7 @@
       "name": "Interfaces",
       "scope": ["entity.name.type.interface"],
       "settings": {
-        "foreground": "#00E5A0",
+        "foreground": "#9AD8FF",
         "fontStyle": "italic"
       }
     },
@@ -676,7 +684,15 @@
       "name": "Enums",
       "scope": ["entity.name.type.enum"],
       "settings": {
-        "foreground": "#38BDF8",
+        "foreground": "#82AAFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Structs",
+      "scope": ["entity.name.struct"],
+      "settings": {
+        "foreground": "#35D4F0",
         "fontStyle": "bold"
       }
     },
@@ -830,7 +846,7 @@
         "meta.template.expression"
       ],
       "settings": {
-        "foreground": "#C084FC",
+        "foreground": "#4AEDC4",
         "fontStyle": "bold"
       }
     },
