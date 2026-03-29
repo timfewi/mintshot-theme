@@ -18,33 +18,33 @@
     "number": "#d19fed",
 
     "namespace": "#bacac3",
-    "type": "#afecae",
-    "type.defaultLibrary": "#569CD6",
-    "typeParameter": "#e7ffc2",
-    "class": "#afecae",
-    "class.defaultLibrary": "#569CD6",
-    "interface": "#afecae",
-    "struct": "#afecae",
-    "enum": "#d19fed",
-    "enumMember": "#4FC1FF",
+    "type": "#b9ffe7",
+    "type.defaultLibrary": "#8bb8ff",
+    "typeParameter": "#d8ffe9",
+    "class": "#b9ffe7",
+    "class.defaultLibrary": "#8bb8ff",
+    "interface": "#b9ffe7",
+    "struct": "#b9ffe7",
+    "enum": "#d7a4f3",
+    "enumMember": "#76d6ff",
 
-    "decorator": "#ffec95",
-    "macro": "#ffec95",
+    "decorator": "#f2d06b",
+    "macro": "#f2d06b",
 
-    "event": "#5ee1ff",
-    "label": "#5ee1ff",
+    "event": "#7fd7ff",
+    "label": "#7fd7ff",
 
-    "variable": "#FFFFFF",
-    "variable.readonly": "#fbf9ff",
-    "variable.defaultLibrary": "#ecfcff",
-    "parameter": "#ffe0c5",
+    "variable": "#dbe6e1",
+    "variable.readonly": "#e8f4ee",
+    "variable.defaultLibrary": "#c8d8d2",
+    "parameter": "#8fd5c2",
 
-    "property": "#5ee1ff",
-    "property.readonly": "#c59eff",
+    "property": "#7fd7ff",
+    "property.readonly": "#c9a7ff",
 
-    "function": "#ffec95",
-    "function.defaultLibrary": "#ffec95",
-    "method": "#ffec95"
+    "function": "#f2d06b",
+    "function.defaultLibrary": "#f2d06b",
+    "method": "#f2d06b"
   },
   "colors": {
     "editor.background": "#141414",
@@ -563,12 +563,12 @@
         "entity.name.variable",
         "support.variable"
       ],
-      "settings": { "foreground": "#FFFFFF" }
+      "settings": { "foreground": "#dbe6e1" }
     },
     {
       "name": "Parameters",
       "scope": ["variable.parameter", "meta.parameter"],
-      "settings": { "foreground": "#91a1ff" }
+      "settings": { "foreground": "#8fd5c2" }
     },
     {
       "name": "Properties and fields",
@@ -579,7 +579,7 @@
         "support.variable.property",
         "entity.name.tag.yaml"
       ],
-      "settings": { "foreground": "#5ee1ff" }
+      "settings": { "foreground": "#7fd7ff" }
     },
     {
       "name": "Constants and enum members",
@@ -590,7 +590,7 @@
         "entity.name.constant",
         "support.constant"
       ],
-      "settings": { "foreground": "#4FC1FF" }
+      "settings": { "foreground": "#76d6ff" }
     },
     {
       "name": "Types and structs",
@@ -601,22 +601,22 @@
         "support.type",
         "support.class"
       ],
-      "settings": { "foreground": "#afecae" }
+      "settings": { "foreground": "#b9ffe7" }
     },
     {
       "name": "Interfaces",
       "scope": ["entity.name.type.interface"],
-      "settings": { "foreground": "#afecae" }
+      "settings": { "foreground": "#b9ffe7" }
     },
     {
       "name": "Enums",
       "scope": ["entity.name.type.enum"],
-      "settings": { "foreground": "#d19fed" }
+      "settings": { "foreground": "#d7a4f3" }
     },
     {
       "name": "Type parameters",
       "scope": ["entity.name.type.parameter"],
-      "settings": { "foreground": "#e7ffc2" }
+      "settings": { "foreground": "#d8ffe9" }
     },
     {
       "name": "Primitive/built-in types",
@@ -626,7 +626,7 @@
         "storage.type.primitive",
         "keyword.type.primitive"
       ],
-      "settings": { "foreground": "#569CD6" }
+      "settings": { "foreground": "#8bb8ff" }
     },
     {
       "name": "Namespaces and modules",
@@ -651,12 +651,12 @@
         "variable.function",
         "variable.method"
       ],
-      "settings": { "foreground": "#ffec95" }
+      "settings": { "foreground": "#f2d06b" }
     },
     {
       "name": "Rust macros",
       "scope": ["entity.name.function.macro", "support.function.macro"],
-      "settings": { "foreground": "#ffec95" }
+      "settings": { "foreground": "#f2d06b" }
     },
     {
       "name": "TS decorators",
@@ -667,7 +667,7 @@
         "storage.type.annotation",
         "punctuation.definition.annotation"
       ],
-      "settings": { "foreground": "#ffec95" }
+      "settings": { "foreground": "#f2d06b" }
     },
     {
       "name": "Rust lifetimes",
