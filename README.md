@@ -1,6 +1,6 @@
 # MintShot
 
-![MintShot banner](./assets/mintshot-banner.svg)
+![MintShot banner](./assets/mintshot-banner.png)
 
 MintShot is a dark VS Code theme with mint-accented UI colors, soft contrast, and bright syntax highlights designed to stay readable during long coding sessions.
 
