@@ -7,34 +7,49 @@
       "foreground": "#ededed4f",
       "fontStyle": "italic"
     },
-    "keyword": "#4AEDC4",
-    "operator": "#bacac3",
-    "string": "#CE9178",
-    "regexp": "#5ee1ff",
-    "number": "#d19fed",
-    "namespace": "#bacac3",
-    "type": "#afecae",
-    "type.defaultLibrary": "#569CD6",
-    "typeParameter": "#e7ffc2",
-    "class": "#afecae",
-    "class.defaultLibrary": "#569CD6",
-    "interface": "#87e9c3",
-    "struct": "#afecae",
-    "enum": "#d19fed",
-    "enumMember": "#4FC1FF",
-    "decorator": "#ffec95",
-    "event": "#5ee1ff",
-    "macro": "#ffec95",
-    "label": "#5ee1ff",
-    "variable": "#ffffff",
-    "variable.readonly": "#c59eff",
-    "variable.defaultLibrary": "#a1deff",
-    "parameter": "#e7ffc2",
-    "property": "#5ee1ff",
-    "property.readonly": "#c59eff",
-    "function": "#ffec95",
-    "function.defaultLibrary": "#ffec95",
-    "method": "#ffec95"
+    // ── Language ────────────────────────────────────
+    "keyword":                "#569CD6",   // VS17 blue — fn, let, const, pub, async
+    "operator":               "#B4B4B4",   // neutral gray — =, =>, ::, +
+
+    // ── Literals ────────────────────────────────────
+    "string":                 "#CE9178",   // VS17 warm orange
+    "regexp":                 "#D16969",   // VS17 muted red
+    "number":                 "#B5CEA8",   // VS17 soft green
+
+    // ── Type system (MintShot mint family) ──────────
+    "namespace":              "#D4D4D4",   // light gray — crate::, module paths
+    "type":                   "#4AEDC4",   // MintShot mint — your types own the brand
+    "type.defaultLibrary":    "#4EC9B0",   // VS17 teal — String, Vec, Promise
+    "typeParameter":          "#7CE0C0",   // softer mint — <T>, generics
+    "class":                  "#4AEDC4",   // mint
+    "class.defaultLibrary":   "#4EC9B0",   // VS17 teal
+    "interface":              "#A8E6CF",   // pastel mint-green — clearly lighter than type
+    "struct":                 "#4AEDC4",   // mint — Rust structs = types
+    "enum":                   "#B5CEA8",   // soft green — enums are value-adjacent
+    "enumMember":             "#4FC1FF",   // bright constant blue
+
+    // ── Decorators & Macros (purple) ────────────────
+    "decorator":              "#C586C0",   // VS17 purple — @decorator, #[attr]
+    "macro":                  "#C586C0",   // same — println!(), vec![]
+
+    // ── Events & Labels ─────────────────────────────
+    "event":                  "#9CDCFE",   // light blue
+    "label":                  "#9CDCFE",   // light blue — 'lifetime, loop labels
+
+    // ── Variables & Parameters (blue family) ────────
+    "variable":               "#9CDCFE",   // VS17 variable blue
+    "variable.readonly":      "#4FC1FF",   // brighter blue — const, static
+    "variable.defaultLibrary":"#9CDCFE",   // std globals
+    "parameter":              "#9CDCFE",   // same family — fn args
+
+    // ── Properties ──────────────────────────────────
+    "property":               "#9CDCFE",   // struct fields, obj props
+    "property.readonly":      "#4FC1FF",   // immutable fields
+
+    // ── Functions (warm yellow) ─────────────────────
+    "function":               "#DCDCAA",   // VS17 function yellow
+    "function.defaultLibrary":"#DCDCAA",   // std fns
+    "method":                 "#DCDCAA"    // impl methods, class methods
   },
   "colors": {
     // ── Editor ──
