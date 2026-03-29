@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "comment": {
-      "foreground": "#ededed4f",
+      "foreground": "#6A737D99",
       "fontStyle": "italic"
     },
 
@@ -444,7 +444,7 @@
     {
       "name": "Comments",
       "scope": ["comment", "comment.block.documentation", "comment.line.documentation", "punctuation.definition.comment"],
-      "settings": { "foreground": "#ededed51", "fontStyle": "italic" }
+      "settings": { "foreground": "#6A737D99", "fontStyle": "italic" }
     },
     {
       "name": "Control flow keywords (purple)",
