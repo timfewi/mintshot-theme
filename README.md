@@ -1,6 +1,6 @@
 # MintShot Themes
 
-MintShot Themes is an open-source collection of dark VS Code themes with mint-accented UI colors, soft contrast, and bright syntax highlighting designed for long coding sessions.
+MintShot Themes is an open-source collection of dark and light VS Code themes with mint-accented UI colors, soft contrast, and bright syntax highlighting designed for long coding sessions.
 
 MintShot Themes is from the company Mint Shot.
 
@@ -31,6 +31,8 @@ Search for `MintShot Themes` in the Extensions view and install it like any othe
 - `MintShot Dark Yellow`
 - `MintShot Dark Green`
 - `MintShot Dark VS2019`
+- `MintShot Light`
+- `MintShot Light Blue`
 
 ## Work on the theme locally
 
