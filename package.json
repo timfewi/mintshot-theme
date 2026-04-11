@@ -1,8 +1,8 @@
 {
   "name": "mintshot-theme",
   "displayName": "MintShot Themes",
-  "description": "A collection of mint-accented dark and light themes for VS Code and compatible editors.",
-  "version": "1.0.34",
+  "description": "A collection of dark and light themes for VS Code and compatible editors with refined neutral surfaces and expressive accents.",
+  "version": "1.0.35",
   "publisher": "mintshot",
   "license": "MIT",
   "homepage": "https://github.com/timfewi/mintshot-theme#readme",
@@ -95,6 +95,31 @@
         "label": "MintShot Light Blue",
         "uiTheme": "vs",
         "path": "./themes/mintshot-light-blue-color-theme.json"
+      },
+      {
+        "label": "MintShot Light Gray",
+        "uiTheme": "vs",
+        "path": "./themes/mintshot-light-gray-color-theme.json"
+      },
+      {
+        "label": "MintShot Light Gold",
+        "uiTheme": "vs",
+        "path": "./themes/mintshot-light-gold-color-theme.json"
+      },
+      {
+        "label": "MintShot Light Rose",
+        "uiTheme": "vs",
+        "path": "./themes/mintshot-light-rose-color-theme.json"
+      },
+      {
+        "label": "MintShot Light Lavender",
+        "uiTheme": "vs",
+        "path": "./themes/mintshot-light-lavender-color-theme.json"
+      },
+      {
+        "label": "MintShot Light Sand",
+        "uiTheme": "vs",
+        "path": "./themes/mintshot-light-sand-color-theme.json"
       }
     ]
   }
