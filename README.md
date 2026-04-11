@@ -31,6 +31,7 @@ Search for `MintShot Themes` in the Extensions view and install it like any othe
 - `MintShot Dark Yellow`
 - `MintShot Dark Green`
 - `MintShot Dark VS2019`
+- `MintShot Dark VS2019 Dimmed`
 - `MintShot Light`
 - `MintShot Light Blue`
 - `MintShot Light Gray`

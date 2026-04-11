@@ -2,7 +2,7 @@
   "name": "mintshot-theme",
   "displayName": "MintShot Themes",
   "description": "A collection of dark and light themes for VS Code and compatible editors with refined neutral surfaces and expressive accents.",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "publisher": "mintshot",
   "license": "MIT",
   "homepage": "https://github.com/timfewi/mintshot-theme#readme",
@@ -85,6 +85,11 @@
         "label": "MintShot Dark VS2019",
         "uiTheme": "vs-dark",
         "path": "./themes/mintshot-dark-vs2019-color-theme.json"
+      },
+      {
+        "label": "MintShot Dark VS2019 Dimmed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintshot-dark-vs2019-dimmed-color-theme.json"
       },
       {
         "label": "MintShot Light",

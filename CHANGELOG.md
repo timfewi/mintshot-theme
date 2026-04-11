@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.36
+
+- Added `MintShot Dark VS2019 Dimmed`, a softer VS2019 variant with a gently lifted editor and workbench background while keeping the original VS2019 palette.
+
 ## 1.0.35
 
 - Redesigned the light-theme palette system so the light themes use neutral light-first surfaces instead of carrying over dark-theme mint styling.
