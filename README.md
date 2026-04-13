@@ -39,6 +39,7 @@ Search for `MintShot Themes` in the Extensions view and install it like any othe
 - `MintShot Light Rose`
 - `MintShot Light Lavender`
 - `MintShot Light Sand`
+- `MintShot Light White`
 
 ## Work on the theme locally
 

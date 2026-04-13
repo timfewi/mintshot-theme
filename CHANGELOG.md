@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Added `MintShot Light White`, a cool white / silver light theme with stronger token differentiation across keywords, functions, variables, parameters, readonly values, properties, classes, and workbench UI states.
+
 ## 1.0.36
 
 - Added `MintShot Dark VS2019 Dimmed`, a softer VS2019 variant with a gently lifted editor and workbench background while keeping the original VS2019 palette.

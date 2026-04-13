@@ -125,6 +125,11 @@
         "label": "MintShot Light Sand",
         "uiTheme": "vs",
         "path": "./themes/mintshot-light-sand-color-theme.json"
+      },
+      {
+        "label": "MintShot Light White",
+        "uiTheme": "vs",
+        "path": "./themes/mintshot-light-white-color-theme.json"
       }
     ]
   }
